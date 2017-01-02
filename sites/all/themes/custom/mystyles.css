@@ -1,7 +1,90 @@
+body {
+  background: url(images/blue.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 #header {
-  background-color: gray;
+  background-color: white;
+  border: solid black;
+}
+#main-content {
+  border: solid black;
 }
 
 #site-logo{
   width:150px;
 }
+
+#site-name span{
+  color: #e73420;
+  font-family: 'Gloria Hallelujah';
+  font-size: 2.5em;
+}
+
+
+
+#main-menu a{
+  font-family: 'Gloria Hallelujah';
+}
+#main-menu li {
+  font-size: 1.8em;
+}
+
+#navigation {
+  margin-top: 30px;
+}
+
+#content img {
+  border: black solid;
+}
+
+#header-social {
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+#sidebar .view-content a{
+  color: black;
+}
+
+span.view-content {
+  color: black;
+}
+
+#sidebar .view-content a:hover {
+  color: #e73420;
+}
+
+span.view-content:hover {
+  color: #e73420;
+}
+
+#breadcrumbs {
+  display: none;
+}
+
+li.node-readmore a{
+  display: none;
+}
+
+#sidebar .block h2{
+  color: #e73420;
+}
+#logo img{
+  transition: all 1s;
+ transition-timing: ease-in-out;
+}
+
+#logo img:hover{
+  transform: rotate(360deg);
+}
+
+
+
+
+
+/*body {
+  background-image: url(s)
+}*/
